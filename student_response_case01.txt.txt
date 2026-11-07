@@ -1,0 +1,13 @@
+SOC INCIDENT REPORT
+
+Alert ID: SOC-2026-014
+
+A workstation attempted 135 failed login attempts within 2 minutes from IP address 185.45.22.14.
+
+Questions:
+1. What type of cyber attack is shown? Bruteforce Attack, falling in Credential stuffing
+2. What indicators make the activity suspicious? 135 login attempts within 2 minutes
+3. What immediate action should the SOC analyst perform? IP Blocking
+4. What severity level should be assigned? High severity, because of automated login attempts
+5. Give one recommendation to prevent this attack. 
+use multi factor authentication for all user logins and remote access points, ensuring that even if credentials are guessed or compromised, unauthorized actors cannot complete authentication.
